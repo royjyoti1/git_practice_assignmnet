@@ -1,12 +1,15 @@
-let num=4;
-let count=0;
+// Q.1  Check whether a number is Prime or not.
+    
+let num=13;
+let c=0;
 for(let i=1;i<=num;i++){
-    if(num%1=0)
-        count++
-
+    
+    if(num%i == 0){
+        c++;
     }
-} if (count==2){
-    console.log("Num is prime");
+}
+if(c==2){
+    console.log("Yes");
 }else{
-    console.log("Num is not prime");
+    console.log("No");
 }
