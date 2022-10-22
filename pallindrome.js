@@ -1,9 +1,17 @@
-let rev_num=0;
-for(let i =num;i>=1:Math.floor(1/10)){
-    rev_num=rev_num*10+i%10
-}
-if(rev_num==num){
-    console.log("palindrome num");
-}else
-    console.log("No [allindrome num");
-}
+
+// Q.2  Check whether a string is palindrome or not.
+
+let str="naman"
+let rev_str="";
+    
+    for(let i=str.length-1;i>=0;i--){
+        
+        rev_str+=str[i];
+    }
+    if(rev_str==str){
+        console.log("Yes");
+    }else{
+        console.log("No");
+    }
+
+
